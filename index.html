@@ -91,6 +91,20 @@
             ul li {
                 margin: .4rem 0
             }
+        .badge{
+          position:fixed; bottom:60px; right:12px;
+          background:#2980b9; color:#fff; padding:4px 8px;
+          font-size:.75rem; border-radius:4px; box-shadow:0 0 6px rgba(0,0,0,.2);
+        }
+
+        /* GitHub source badge */
+        .src-badge{
+          position:fixed; bottom:12px; right:12px;
+          background:#27ae60; color:#fff; padding:6px 12px;
+          font-size:.8rem; font-weight:600; border-radius:6px;
+          box-shadow:0 0 6px rgba(0,0,0,.25); text-decoration:none;
+        }
+        .src-badge:hover{background:#219150;}
     </style>
 </head>
 
@@ -155,8 +169,12 @@
         </div>
     </div>
 
-   <!-- floating badge link -->
-    <a class="src-badge" href="https://github.com/enesd3d3/resume-site" target="_blank" title="View HTML &amp; CSS Source on GitHub">View&nbsp;Source</a>
+   <!-- fixed badges -->
+    <span class="badge">PURE HTML &amp; CSS</span>
+
+    <a class="src-badge" href="https://github.com/enesd3d3/resume-site" target="_blank">
+        View HTML &amp; CSS Source on GitHub
+    </a>
 
 
     
